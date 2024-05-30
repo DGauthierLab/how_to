@@ -26,7 +26,8 @@
 
 # How To Set Up Your Launch HPC Account for RStudio & Terminal in a Web Page
 
-* [Instructions](https://hprc.tamu.edu/kb/Quick-Start/Launch/)
+* [Instructions for TAMUCC HPC](https://hprc.tamu.edu/kb/Quick-Start/Launch/)
+* [Instructions for ODU HPC](https://wiki.hpc.odu.edu/en/open-ondemand)
 
 ---
 
