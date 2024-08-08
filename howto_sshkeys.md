@@ -69,9 +69,19 @@ If you are here, you're probably wanting to set up an ssh key which allows your 
     * For [GitHub](https://github.com) you can use the official instructions [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) starting at step 2, or the following may be more straightforward:
       
     * from your home directory, enter the following command in Terminal:
-    
+    ```
       cat ~/.ssh/id_rsa.pub 
-    
+    ```
+    #highlight and copy everything from ssh-rsa to the end of the line
+
+    #next, Open and log into GitHub
+
+    #in "account settings" go to "SSH and GPG Keys"
+
+    #select "new SSH key" and paste your clipboard into the box
+
+    #add the key
+     
     * For any remote server/computer, copy your public to your `~/.ssh` dir on the remote computer as follows:
     
     ```bash
