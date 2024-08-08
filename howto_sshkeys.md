@@ -64,7 +64,7 @@ If you are here, you're probably wanting to set up an ssh key which allows your 
     id_rsa  id_rsa.pub
     ```
 
-3.  Placing your public key on remote servers
+3.  Placing your key on Github
     
     * For [GitHub](https://github.com) you can use the official instructions [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) starting at step 2, or the following may be more straightforward:
       
@@ -72,16 +72,18 @@ If you are here, you're probably wanting to set up an ssh key which allows your 
     ```
       cat ~/.ssh/id_rsa.pub 
     ```
-    #highlight and copy everything from ssh-rsa to the end of the line
+    * highlight and copy everything from ssh-rsa to the end of the line
 
-    #next, Open and log into GitHub
+    * next, Open and log into GitHub
 
-    #in "account settings" go to "SSH and GPG Keys"
+    * in "account settings" go to "SSH and GPG Keys"
 
-    #select "new SSH key" and paste your clipboard into the box
+    * select "new SSH key" and paste your clipboard into the box
 
-    #add the key
-     
+    * add the key
+      
+4.  Placing your key on a remote server/computer
+   
     * For any remote server/computer, copy your public to your `~/.ssh` dir on the remote computer as follows:
     
     ```bash
@@ -92,17 +94,20 @@ If you are here, you're probably wanting to set up an ssh key which allows your 
     # you will be prompted for your password on the remote computer
     ```
         
-    * Example: for me (`cbird`) on the old TAMUCC supercomputer (`hpcm.tamucc.edu`)
+    * Example: for me (`dgauthie`) on the ODU Cluster (`wahab.hpc.odu.edu`)
         
     ```
-     cbird@3950x:~$ ssh-copy-id cbird@hpcm.tamucc.edu
+    bash-3.2$ ssh-copy-id dgauthie@wahab.hpc.odu.edu
+    /usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/Users/dgauthie/.ssh/id_rsa.pub"
     /usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
     /usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
-    (cbird@hpcm.tamucc.edu) Password: 
+    (dgauthie@wahab.hpc.odu.edu) Password:
+    
+   Success. Logging you in...
 
-    Number of key(s) added: 1
+    Number of key(s) added:        1
 
-    Now try logging into the machine, with:   "ssh 'cbird@hpcm.tamucc.edu'"
+    Now try logging into the machine, with:   "ssh 'dgauthie@wahab.hpc.odu.edu'"
     and check to make sure that only the key(s) you wanted were added.
 
     ```
