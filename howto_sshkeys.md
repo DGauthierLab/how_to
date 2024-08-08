@@ -82,6 +82,8 @@ If you are here, you're probably wanting to set up an ssh key which allows your 
 
     * add the key
       
+    * IMPORTANT: For the SSH key to work, when cloning a repo you must clone the SSH repo and not the HTTPS repo
+      
 4.  Placing your key on a remote server/computer
    
     * For any remote server/computer, copy your public to your `~/.ssh` dir on the remote computer as follows:
