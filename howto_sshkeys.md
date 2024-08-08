@@ -66,7 +66,11 @@ If you are here, you're probably wanting to set up an ssh key which allows your 
 
 3.  Placing your public key on remote servers
     
-    * For [GitHub](https://github.com) consult the instructions [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) starting at step 2
+    * For [GitHub](https://github.com) you can use the official instructions [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) starting at step 2, or the following may be more straightforward:
+      
+    * from your home directory, enter the following command in Terminal:
+    
+      cat ~/.ssh/id_rsa.pub 
     
     * For any remote server/computer, copy your public to your `~/.ssh` dir on the remote computer as follows:
     
