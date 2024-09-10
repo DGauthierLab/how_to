@@ -12,11 +12,15 @@
 
 * [Set up SSH Keys For Easy Access to Remote Servers & GitHub](howto_sshkeys.md)
 
+* [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
 * [Install Git Large File Storage Extension](install_git_lfs.md)
 
 * [Install R](install_r.md)
 
 * [Install RStudio](install_rstudio.md)
+
+* [Work with Git inside Rstudio](git_in_rstudio.md)  
 
 ---
 
