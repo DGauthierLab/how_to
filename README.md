@@ -1,5 +1,22 @@
 # How To Set Up Your Computer for Computational Biology
 
+## Step 1: Install R and RStudio
+* [Install R](install_r.md)
+
+* [Install RStudio](install_rstudio.md)
+
+## Step 2: Create a Github account
+
+* [Create GitHub Account](howto_github_acct.md)
+
+
+## Step 3: If you want to work on the ODU High-Performance Compute Cluster (HPC), follow these steps:
+### This will allow access to R and RStudio from a Web browser, rather than a local install
+
+* [Instructions](https://hprc.tamu.edu/kb/Quick-Start/Launch/)
+
+## If you want to install locally, follow these instructions
+
 * [Install `Ubuntu` on WindowsOS](install_wsl_ubuntu.md)
 
 * [Install `Windows Terminal` from the microsoft store on WindowsOS](https://learn.microsoft.com/en-us/windows/terminal/install).
@@ -8,7 +25,7 @@
 
 * Install a text editor designed for coding on [PC (Notepad++)](https://notepad-plus-plus.org/downloads/) or [MacOS (BBEdit)](https://www.barebones.com/products/textwrangler/download.html)
 
-* [Create GitHub Account](howto_github_acct.md)
+
 
 * [Set up SSH Keys For Easy Access to Remote Servers & GitHub](howto_sshkeys.md)
 
@@ -28,9 +45,7 @@
 
 ---
 
-# How To Set Up Your Launch HPC Account for RStudio & Terminal in a Web Page
 
-* [Instructions](https://hprc.tamu.edu/kb/Quick-Start/Launch/)
 
 ---
 
