@@ -2,9 +2,11 @@
 
 ## Step 1: Configure Git inside Rstudio
 ### Note: This is the same procedure outlined [here:](howto_sshkeys.md)
-- Under Tools inside Rstudio, open `Global Options`
-- Select `Git/SVN` on the left menu
-- Browse to find your Git executable
+1. Under Tools inside Rstudio, open `Global Options`
+  
+2. Select `Git/SVN` on the left menu
+
+3. Browse to find your Git executable
   - For Windows, most likely, it is at C:/Program Files/Git/bin/git.exe and will need to be set.
   - For Macs, most likely, it is at /usr/local/bin/git and will NOT need to be set.
   - *IMPORTANT*: do not select any files that look like executables outside the bin folder.  They will mess up everything.
