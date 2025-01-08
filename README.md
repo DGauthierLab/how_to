@@ -10,12 +10,13 @@
 * [Create GitHub Account](howto_github_acct.md)
 
 
-## Step 3: If you want to work on the ODU High-Performance Compute Cluster (HPC), follow these steps:
+## Step 3a: If you want to work on the ODU High-Performance Compute Cluster (HPC), follow these steps:
 ### This will allow access to R and RStudio from a Web browser, rather than a local install
 
-* [Instructions](https://hprc.tamu.edu/kb/Quick-Start/Launch/)
+* [Instructions for ODU On Demand HPC access](https://wiki.hpc.odu.edu/en/open-ondemand)
 
-## If you want to install locally, follow these instructions
+## Step 3b: If you want to install locally, follow these instructions
+### This will allow you to install on your own local computer.  Results will vary and some troubleshooting may be necessary
 
 * [Install `Ubuntu` on WindowsOS](install_wsl_ubuntu.md)
 
@@ -24,18 +25,14 @@
 * [Install `Homebrew` on MacOS](https://brew.sh/)
 
 * Install a text editor designed for coding on [PC (Notepad++)](https://notepad-plus-plus.org/downloads/) or [MacOS (BBEdit)](https://www.barebones.com/products/textwrangler/download.html)
-
-
-
-* [Set up SSH Keys For Easy Access to Remote Servers & GitHub](howto_sshkeys.md)
-
+  
 * [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 * [Install Git Large File Storage Extension](install_git_lfs.md)
 
-* [Install R](install_r.md)
+## Step 4: Set up RStudio to work with GitHub
 
-* [Install RStudio](install_rstudio.md)
+* [Set up SSH Keys For Easy Access to Remote Servers & GitHub](howto_sshkeys.md)
 
 * [Work with Git inside Rstudio](git_in_rstudio.md)  
 
