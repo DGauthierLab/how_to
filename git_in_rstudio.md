@@ -1,7 +1,7 @@
 # Working with Git inside Rstudio
 
-### Step 1: Configure Git inside Rstudio
-- Under Tools inside Rstudio, open "Global Options"
+## Step 1: Configure Git inside Rstudio
+- Under Tools inside Rstudio, open `Global Options`
 - Select `Git/SVN` on the left menu
 - Browse to find your Git executable
   - For Windows, most likely, it is at C:/Program Files/Git/bin/git.exe and will need to be set.
@@ -12,7 +12,7 @@
 - Go to your Github account and select your profile.  Select `Settings` and then `SSH and GPG` keys from the left menu.
 - Press the green `New SSH Key` button and paste in your SSH Public Key copied from Rstudio.  Title it whatever you want.
 
-### Step 2: Clone repository from Github
+## Step 2: Clone repository from Github
 - In Rstudio, select `File/Create New Project`
 - Select `Version Control` from the popup window
 - Select `Git` from the next popup window
