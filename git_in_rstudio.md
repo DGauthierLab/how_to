@@ -1,6 +1,7 @@
 # Working with Git inside Rstudio
 
 ## Step 1: Configure Git inside Rstudio
+### Note: This is the same procedure outlined here: 
 - Under Tools inside Rstudio, open `Global Options`
 - Select `Git/SVN` on the left menu
 - Browse to find your Git executable
