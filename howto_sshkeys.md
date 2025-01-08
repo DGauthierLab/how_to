@@ -1,6 +1,28 @@
-# ssh keys - No more passwords for remote servers and github
+# ssh keys - No more passwords for remote servers and GitHub
 
-If you are here, you're probably wanting to set up an ssh key which allows your laptop to connect to a remote server, like one of our [high performance computing systems, aka supercomptuers](https://hpc.tamucc.edu/) or [GitHub](https://github.com). Follow these steps to get it setup
+The following procedure will allow you to generate an SSH key, which will allow your RStudio instance on the ODU HPC or RStudio session on your local computer to talk to GitHub seamlessly. 
+
+## Instructions for generating an SSH key on ODU HPC RStudio OnDemand
+
+1. From your RStudio session on the ODU HPC, select Tools from the top menu, then Global Options, then the Git/SVN tab on the left.
+   
+2. Click the "Create SSH Key" button.  The dialog box should say "The SSH key will be created at: /home/<MIDAS>/.ssh/id_ed25519", where <MIDAS> will be your MIDAS ID.  The id_edXXXXX number will be different.
+
+3. Leave Passphrase and Confirm blank and click "Create".  If you get a dialog box asking you to overwrite the existing key, you already have one and can likely cancel out of the process.  If not, click "Yes".
+
+4. You'll get a dialog box with a funny looking randomart image in it.  This can be closed.  Click the "View public key" link and copy the key to the clipboard.  It will start with ssh and end with your midas ID and a bunch of numbers.
+
+5.  Go to your GitHub account online and select the pixel art image in the upper right.  Select "SSH and GPG keys" from the menu to the left.
+
+6.  Click the "New SSH Key" button.  Give a title (Wahab is good, so you know this links to the HPC), then past the key in the "Key" box.  Click the green "Add SSH Key" button.
+
+7.  Now GitHub knows to trust access from your ODU HPC account and pushing/pulling from within RStudio should work.
+
+## Instructions for generating a local SSH key
+
+1.  You should be able to follow the above steps to generate a local key.  If that doesn't work and you have a Terminal or Terminal-like environment installed, you can use the alternate procedure below:
+
+## Local SSH key alternate method
 
 1. Determine if you've already created a key
     
