@@ -37,6 +37,6 @@
 7. Name your project directory whatever you like
 
 8. On the next line, select where you want your repository stored locally on your computer
-      *PRO TIP* It is not recommended to store your repo on a shared server, like Drive or OneDrive
+      - *PRO TIP* It is not recommended to store your repo on a shared server, like Drive or OneDrive
 
 9. Click `Create Project`  You should now have a Git tab in your Environment pane and the cloned repo should be under the Files tab
