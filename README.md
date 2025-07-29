@@ -13,7 +13,7 @@
 
 ## Step 3: Set up RStudio to work with GitHub
 
-* [Set up SSH Keys For Easy Access to Remote Servers & GitHub](howto_sshkeys.md)
+* [Work with Git inside Rstudio](git_in_rstudio.md)  
 
 ## If you want to install locally, follow these instructions:
 ### This will allow you to install on your own local computer.  Results will vary and some troubleshooting may be necessary
