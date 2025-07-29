@@ -9,7 +9,13 @@
 
 ## Step 2: Access R and RStudio on the HPC
 
-* [Instructions for ODU On Demand HPC access](https://wiki.hpc.odu.edu/en/open-ondemand)
+* [Instructions for ODU On Demand HPC access](https://wiki.hpc.odu.edu/en/open-ondemand) 
+
+## Step 3: Set up RStudio to work with GitHub
+
+* [Set up SSH Keys For Easy Access to Remote Servers & GitHub](howto_sshkeys.md)
+
+* [Work with Git inside Rstudio](git_in_rstudio.md)  
 
 
 ## If you want to install locally, follow these instructions:
@@ -34,11 +40,7 @@
 
 * [Install Git Large File Storage Extension](install_git_lfs.md)
 
-## Step 4: Set up RStudio to work with GitHub
 
-* [Set up SSH Keys For Easy Access to Remote Servers & GitHub](howto_sshkeys.md)
-
-* [Work with Git inside Rstudio](git_in_rstudio.md)  
 
 ---
 
