@@ -7,6 +7,7 @@
 2. Select `Git/SVN` on the left menu
 
 3. Browse to find your Git executable
+  - For the HPC, this will NOT need to be set.
   - For Windows, most likely, it is at C:/Program Files/Git/bin/git.exe and will need to be set.
   - For Macs, most likely, it is at /usr/local/bin/git and will NOT need to be set.
   - *IMPORTANT*: do not select any files that look like executables outside the bin folder.  They will mess up everything.
